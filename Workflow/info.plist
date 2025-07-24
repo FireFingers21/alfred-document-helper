@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.firefingers21.documenthelper</string>
+	<key>category</key>
+	<string>Shared</string>
+	<key>connections</key>
+	<dict>
+		<key>0CCA2272-BF1D-43B9-92FA-52F03D2279BB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>84D4600C-246E-4850-8B0D-FF32AC235834</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>250B97BD-1417-4054-8C86-E3DF64C8E275</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BB689C8C-1DDE-4863-908C-E53B132B8062</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>57D025A2-E7AC-4F35-822F-EB886FE9E67A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F8480E0C-F588-43A8-B843-FA6545B7167F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7A34B522-AA72-4AC2-A5AD-C2E2BA5B9626</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>250B97BD-1417-4054-8C86-E3DF64C8E275</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7C3007C3-EBD3-4B51-8954-091BF8FBC59C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ED2EBE9E-400A-4AB1-8601-DDF86E17A93E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>84D4600C-246E-4850-8B0D-FF32AC235834</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>57D025A2-E7AC-4F35-822F-EB886FE9E67A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>950FD322-596F-4901-A06E-EBB1687AE2E5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B4672194-C705-4CDB-96FA-CBDF6781EA2E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9E9B1122-E798-4A17-A1F7-9394C7137FC5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4DB0706F-8301-4A7B-B177-562AF67ECB08</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>41E7ECD4-E9B8-4E4D-A7D8-E697E65E12BF</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>31B612E3-FE7E-4D25-AA94-BAF0E06B27D3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B4672194-C705-4CDB-96FA-CBDF6781EA2E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9E9B1122-E798-4A17-A1F7-9394C7137FC5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>ED2EBE9E-400A-4AB1-8601-DDF86E17A93E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7A34B522-AA72-4AC2-A5AD-C2E2BA5B9626</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>64927C07-1E28-45C4-A17C-B6FFDF341015</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>FireFingers21</string>
+	<key>description</key>
+	<string>Create &amp; export documents</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Document Helper</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>case ${1} in
+	"docs")
+		url="https://docs.google.com/document/create"
+		;;
+	"sheets")
+		url="https://docs.google.com/spreadsheets/create"
+		;;
+	"slides")
+		url="https://docs.google.com/presentation/create"
+		;;
+esac
+
+if [[ -z "${browser}" ]];then
+	open "${url}"
+else
+	open -b "${browser}" "${url}"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4DB0706F-8301-4A7B-B177-562AF67ECB08</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>950FD322-596F-4901-A06E-EBB1687AE2E5</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:newKeyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>scripts/new.sh</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>New Document</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>B4672194-C705-4CDB-96FA-CBDF6781EA2E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<true/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^[^.]*$</string>
+						<key>outputlabel</key>
+						<string>web</string>
+						<key>uid</key>
+						<string>41E7ECD4-E9B8-4E4D-A7D8-E697E65E12BF</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>9E9B1122-E798-4A17-A1F7-9394C7137FC5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv	set appName to argv as string	tell application id appName		make new document		activate	end tellend run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>31B612E3-FE7E-4D25-AA94-BAF0E06B27D3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{var:exportType2} Created Successfully</string>
+				<key>title</key>
+				<string>Export to {var:exportType1}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>F8480E0C-F588-43A8-B843-FA6545B7167F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>scripts/{var:action}.scpt</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>57D025A2-E7AC-4F35-822F-EB886FE9E67A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedApps</key>
+				<array>
+					<string>com.apple.iWork.Pages</string>
+					<string>com.apple.iWork.Keynote</string>
+					<string>com.apple.iWork.Numbers</string>
+				</array>
+				<key>relatedAppsMode</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>0CCA2272-BF1D-43B9-92FA-52F03D2279BB</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>3</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:exportKeyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>scripts/export.sh</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Export To...</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>84D4600C-246E-4850-8B0D-FF32AC235834</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>currSelected='
+	"subtitle": "Currently Selected",
+	"match": "",
+	"valid": "false"
+'
+
+cat &lt;&lt; EOB
+{"items": [
+	{
+		"title": "System Default",
+		"arg": "",
+		$([[ -z ${browser} ]] &amp;&amp; echo $currSelected)
+	},
+	{
+		"title": "Arc",
+		"arg": "company.thebrowser.Browser",
+		$([[ ${browser} == "company.thebrowser.Browser" ]] &amp;&amp; echo $currSelected)
+	},
+	{
+		"title": "Chromium",
+		"arg": "org.chromium.Chromium",
+		$([[ ${browser} == "org.chromium.Chromium" ]] &amp;&amp; echo $currSelected)
+	},
+	{
+		"title": "Firefox",
+		"arg": "org.mozilla.firefox",
+		$([[ ${browser} == "org.mozilla.firefox" ]] &amp;&amp; echo $currSelected)
+	},
+	{
+		"title": "Google Chrome",
+		"arg": "com.google.Chrome",
+		$([[ ${browser} == "com.google.Chrome" ]] &amp;&amp; echo $currSelected)
+	},
+	{
+		"title": "Microsoft Edge",
+		"arg": "com.microsoft.edgemac",
+		$([[ ${browser} == "com.microsoft.edgemac" ]] &amp;&amp; echo $currSelected)
+	},
+	{
+		"title": "Opera",
+		"arg": "com.operasoftware.Opera",
+		$([[ ${browser} == "com.operasoftware.Opera" ]] &amp;&amp; echo $currSelected)
+	},
+	{
+		"title": "Orion",
+		"arg": "com.kagi.kagimacOS",
+		$([[ ${browser} == "com.kagi.kagimacOS" ]] &amp;&amp; echo $currSelected)
+	},
+	{
+		"title": "Safari",
+		"arg": "com.apple.Safari",
+		$([[ ${browser} == "com.apple.Safari" ]] &amp;&amp; echo $currSelected)
+	},
+	{
+		"title": "Zen",
+		"arg": "app.zen-browser.zen",
+		$([[ ${browser} == "app.zen-browser.zen" ]] &amp;&amp; echo $currSelected)
+	}
+]}
+EOB</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Select Browser</string>
+				<key>type</key>
+				<integer>11</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>7A34B522-AA72-4AC2-A5AD-C2E2BA5B9626</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+	tell application id "com.runningwithcrayons.Alfred"
+		set bundleID to (system attribute "alfred_workflow_bundleid")
+		set configuration "browser" to value argv in workflow bundleID
+	end tell
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>250B97BD-1417-4054-8C86-E3DF64C8E275</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>1</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:newKeyword}::||{var:newKeyword} ::||{var:exportKeyword}::||{var:exportKeyword} ::</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>cat &lt;&lt; EOB
+{"items": [
+	{
+		"title": "Browser Settings",
+		"subtitle": "Select the default browser for $alfred_workflow_name",
+		"arg": "",
+		"variables": {"pref_id": "browser"}
+	}
+]}
+EOB</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>7C3007C3-EBD3-4B51-8954-091BF8FBC59C</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Default browser changed</string>
+				<key>title</key>
+				<string>{const:alfred_workflow_name}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>BB689C8C-1DDE-4863-908C-E53B132B8062</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:pref_id}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>browser</string>
+						<key>outputlabel</key>
+						<string>browser</string>
+						<key>uid</key>
+						<string>64927C07-1E28-45C4-A17C-B6FFDF341015</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>ED2EBE9E-400A-4AB1-8601-DDF86E17A93E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>## Usage
+
+Open applications directly to a new file with the `new` keyword. Type to filter.
+
+![Using the New File keyword](images/about/newKeyword.png)
+
+![Filtering app results with the New File keyword](images/about/newKeywordFilter.png)
+
+Export iWork documents to a new format with the `export` keyword. Documents must occupy the frontmost window on your screen.
+
+![Using the Export File keyword](images/about/exportKeyword.png)
+
+Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) as a shortcut for triggering the above actions.</string>
+	<key>uidata</key>
+	<dict>
+		<key>0CCA2272-BF1D-43B9-92FA-52F03D2279BB</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>295</real>
+		</dict>
+		<key>250B97BD-1417-4054-8C86-E3DF64C8E275</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<real>375</real>
+			<key>ypos</key>
+			<real>470</real>
+		</dict>
+		<key>31B612E3-FE7E-4D25-AA94-BAF0E06B27D3</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>Open File</string>
+			<key>xpos</key>
+			<real>515</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+		<key>4DB0706F-8301-4A7B-B177-562AF67ECB08</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>Open Web App</string>
+			<key>xpos</key>
+			<real>515</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>57D025A2-E7AC-4F35-822F-EB886FE9E67A</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>Convert Document</string>
+			<key>xpos</key>
+			<real>375</real>
+			<key>ypos</key>
+			<real>295</real>
+		</dict>
+		<key>7A34B522-AA72-4AC2-A5AD-C2E2BA5B9626</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<real>235</real>
+			<key>ypos</key>
+			<real>470</real>
+		</dict>
+		<key>7C3007C3-EBD3-4B51-8954-091BF8FBC59C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>note</key>
+			<string>Configuration</string>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>470</real>
+		</dict>
+		<key>84D4600C-246E-4850-8B0D-FF32AC235834</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>Export iWork Documents</string>
+			<key>xpos</key>
+			<real>235</real>
+			<key>ypos</key>
+			<real>295</real>
+		</dict>
+		<key>950FD322-596F-4901-A06E-EBB1687AE2E5</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>30</real>
+		</dict>
+		<key>9E9B1122-E798-4A17-A1F7-9394C7137FC5</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>xpos</key>
+			<real>415</real>
+			<key>ypos</key>
+			<real>50</real>
+		</dict>
+		<key>B4672194-C705-4CDB-96FA-CBDF6781EA2E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>Create New Files</string>
+			<key>xpos</key>
+			<real>235</real>
+			<key>ypos</key>
+			<real>30</real>
+		</dict>
+		<key>BB689C8C-1DDE-4863-908C-E53B132B8062</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<real>515</real>
+			<key>ypos</key>
+			<real>470</real>
+		</dict>
+		<key>ED2EBE9E-400A-4AB1-8601-DDF86E17A93E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<real>185</real>
+			<key>ypos</key>
+			<real>500</real>
+		</dict>
+		<key>F8480E0C-F588-43A8-B843-FA6545B7167F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>xpos</key>
+			<real>515</real>
+			<key>ypos</key>
+			<real>295</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>new</string>
+				<key>placeholder</key>
+				<string>new</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>New File Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>newKeyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>System Default</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Arc</string>
+						<string>company.thebrowser.Browser</string>
+					</array>
+					<array>
+						<string>Chromium</string>
+						<string>org.chromium.Chromium</string>
+					</array>
+					<array>
+						<string>Firefox</string>
+						<string>org.mozilla.firefox</string>
+					</array>
+					<array>
+						<string>Google Chrome</string>
+						<string>com.google.Chrome</string>
+					</array>
+					<array>
+						<string>Microsoft Edge</string>
+						<string>com.microsoft.edgemac</string>
+					</array>
+					<array>
+						<string>Opera</string>
+						<string>com.operasoftware.Opera</string>
+					</array>
+					<array>
+						<string>Orion</string>
+						<string>com.kagi.kagimacOS</string>
+					</array>
+					<array>
+						<string>Safari</string>
+						<string>com.apple.Safari</string>
+					</array>
+					<array>
+						<string>Zen</string>
+						<string>app.zen-browser.zen</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Select the default browser for opening web-only documents</string>
+			<key>label</key>
+			<string>Default Browser</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>browser</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>export</string>
+				<key>placeholder</key>
+				<string>export</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Export File Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>exportKeyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Reveal in Finder</string>
+			</dict>
+			<key>description</key>
+			<string>Reveal files in Finder after export</string>
+			<key>label</key>
+			<string>Behaviour</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>revealExport</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>2025.7</string>
+	<key>webaddress</key>
+	<string>https://github.com/FireFingers21/alfred-document-helper</string>
+</dict>
+</plist>
