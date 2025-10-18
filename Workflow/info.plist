@@ -412,9 +412,12 @@ end run</string>
 				<integer>2</integer>
 				<key>relatedApps</key>
 				<array>
-					<string>com.apple.iWork.Pages</string>
 					<string>com.apple.iWork.Keynote</string>
+					<string>com.microsoft.Word</string>
+					<string>com.microsoft.Excel</string>
+					<string>com.microsoft.Powerpoint</string>
 					<string>com.apple.iWork.Numbers</string>
+					<string>com.apple.iWork.Pages</string>
 				</array>
 				<key>relatedAppsMode</key>
 				<integer>1</integer>

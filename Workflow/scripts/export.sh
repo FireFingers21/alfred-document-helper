@@ -3,51 +3,70 @@
 case $(lsappinfo info -only bundleID `lsappinfo front | sed 's/-/-0x/'`) in
     *com.apple.iWork.Pages*)
         action="exportPages"
-        msApp="Word"
-        msFile="Document"
-        textType1="Plain Text"
-        textIcon1="public.plain-text"
-        textType2="Rich Text"
-        textIcon2="public.rtf"
+        msApp=("Word" "Document")
+        textType1=("Plain Text" "public.plain-text")
+        textType2=("Rich Text" "public.rtf")
         ;;
     *com.apple.iWork.Numbers*)
         action="exportNumbers"
-        msApp="Excel"
-        msFile="Spreadsheet"
-        textType1="CSV"
-        textIcon1="public.comma-separated-values-text"
+        msApp=("Excel" "Spreadsheet")
+        textType1=("CSV" "public.comma-separated-values-text")
         ;;
     *com.apple.iWork.Keynote*)
         action="exportKeynote"
-        msApp="PowerPoint"
+        msApp=("PowerPoint" "Presentation")
         msFile="Presentation"
+        ;;
+    *com.microsoft.Word*)
+        action="exportWord"
+        odApp=("OpenDocument" "Document" "org.oasis-open.opendocument.text")
+        textType1=("Plain Text" "public.plain-text")
+        textType2=("Rich Text" "public.rtf")
+        ;;
+    *com.microsoft.Excel*)
+        action="exportExcel"
+        textType1=("CSV" "public.comma-separated-values-text")
+        ;;
+    *com.microsoft.Powerpoint*)
+        action="exportPowerPoint"
+        ;;
+    *)
+        export error
         ;;
 esac
 
-if [[ -n ${msApp} ]]; then
 cat << EOB
 {"items": [
 	{
-		"title": "Export to PDF",
+		"title": "${action:+Export to PDF}",
 		"arg": "",
-		"variables": { "action": "$action", "exportType1": "PDF", "exportType2": "PDF" },
-		"icon": { "type": "filetype", "path": "com.adobe.pdf" }
+		"variables": { "action":"${action}", "exportType1":"PDF", "exportType2":"PDF" },
+		"icon": { "type":"filetype", "path":"com.adobe.pdf" }
 	},
 	{
-		"title": "Export to $msApp",
-		"variables": { "action": "$action", "exportType1": "$msApp", "exportType2": "$msFile" },
-		"icon": { "path": "images/$msApp.png" }
+		"title": "${msApp[1]:+Export to ${msApp[1]}}",
+		"variables": { "action":"${action}", "exportType1":"${msApp[1]}", "exportType2":"${msApp[2]}" },
+		"icon": { "path":"images/${msApp[1]}.png" }
 	},
 	{
-		"title": "$([[ -n ${textType1} ]] && echo Export to $textType1)",
-		"variables": { "action": "$action", "exportType1": "$textType1", "exportType2": "$textType1" },
-		"icon": { "type": "filetype", "path": "$textIcon1" }
+		"title": "${odApp[1]:+Export to ${odApp[1]}}",
+		"variables": { "action":"${action}", "exportType1":"${odApp[1]}", "exportType2":"${odApp[2]}" },
+		"icon": { "type":"filetype", "path":"${odApp[3]}" }
 	},
 	{
-	    "title": "$([[ -n ${textType2} ]] && echo Export to $textType2)",
-		"variables": { "action": "$action", "exportType1": "$textType2", "exportType2": "$textType2" },
-		"icon": { "type": "filetype", "path": "$textIcon2" }
+		"title": "${textType1[1]:+Export to ${textType1[1]}}",
+		"variables": { "action":"${action}", "exportType1":"${textType1[1]}", "exportType2":"${textType1[1]}" },
+		"icon": { "type":"filetype", "path":"${textType1[2]}" }
+	},
+	{
+		"title": "${textType2[1]:+Export to ${textType2[1]}}",
+		"variables": { "action":"${action}", "exportType1":"${textType2[1]}", "exportType2":"${textType2[1]}" },
+		"icon": { "type":"filetype", "path":"${textType2[2]}" }
+	},
+	{
+		"title": "${error+No Documents to Export}",
+		"subtitle": "${error+Make sure document is the frontmost window on screen}",
+		"valid": false
 	}
 ]}
 EOB
-fi
