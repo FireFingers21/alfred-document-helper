@@ -324,7 +324,13 @@ fi</string>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
-				<string>on run argv	set appName to argv as string	tell application id appName		make new document		activate	end tellend run</string>
+				<string>on run argv
+	set appName to argv as string
+	tell application id appName
+		make new document
+		activate
+	end tell
+end run</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -724,15 +730,19 @@ EOB</string>
 	<key>readme</key>
 	<string>## Usage
 
-Open applications directly to a new file with the `new` keyword. Type to filter.
+Open applications directly to a new file via the `new` keyword.
 
-![Using the New File keyword](images/about/newKeyword.png)
+![Using the "new" keyword](images/about/new.png)
 
-![Filtering app results with the New File keyword](images/about/newKeywordFilter.png)
+Type to filter. Results are searchable by Name, Document Type, and Office Suite.
 
-Export iWork documents to a new format with the `export` keyword. Documents must occupy the frontmost window on your screen.
+![Filtering app results by document type](images/about/newFilter.png)
 
-![Using the Export File keyword](images/about/exportKeyword.png)
+![Filtering app results by office suite](images/about/newSuite.png)
+
+Export iWork and Microsoft 365 documents to a new format via the `export` keyword. Documents must occupy the frontmost window of your screen.
+
+![Using the "export" keyword on a Pages document](images/about/export.png)
 
 Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) as a shortcut for triggering the above actions.</string>
 	<key>uidata</key>

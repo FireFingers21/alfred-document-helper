@@ -4,14 +4,18 @@ Create & export documents with Alfred
 
 ## Usage
 
-Open applications directly to a new file with the `new` keyword. Type to filter.
+Open applications directly to a new file via the `new` keyword.
 
-![Using the New File keyword](Workflow/images/about/newKeyword.png)
+![Using the "new" keyword](Workflow/images/about/new.png)
 
-![Filtering app results with the New File keyword](Workflow/images/about/newKeywordFilter.png)
+Type to filter. Results are searchable by Name, Document Type, and Office Suite.
 
-Export iWork documents to a new format with the `export` keyword. Documents must occupy the frontmost window on your screen.
+![Filtering app results by document type](Workflow/images/about/newFilter.png)
 
-![Using the Export File keyword](Workflow/images/about/exportKeyword.png)
+![Filtering app results by office suite](Workflow/images/about/newSuite.png)
+
+Export iWork and Microsoft 365 documents to a new format via the `export` keyword. Documents must occupy the frontmost window of your screen.
+
+![Using the "export" keyword on a Pages document](Workflow/images/about/export.png)
 
 Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) as a shortcut for triggering the above actions.
