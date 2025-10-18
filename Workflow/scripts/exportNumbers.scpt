@@ -1,6 +1,6 @@
 #!/usr/bin/osascript
 
-on exportToPDF()
+on exportFile()
 	tell application id "com.apple.iWork.Numbers"
 		set fileName to name of front document as text
 		set filePath to POSIX path of (get file of front document)
@@ -21,17 +21,17 @@ on exportToPDF()
 		end tell
 	end tell
 	return true
-end exportToPDF
+end exportFile
 
 try
-	exportToPDF()
+	exportFile()
 on error errStr number errNum
 	set alertTitle to "Unable to Export to " & (system attribute "exportType1")
 	if errNum is -1728 then
 		tell application id "com.apple.iWork.Numbers" to display alert alertTitle message "File must first be saved" as critical buttons {"Save As...", "Cancel"} default button "Save As..." cancel button "Cancel"
 		try
 			tell application id "com.apple.iWork.Numbers" to save front document
-			exportToPDF()
+			exportFile()
 		end try
 	else if errNum is -1719 then
 		tell application id "com.apple.iWork.Numbers" to display alert alertTitle message "No spreadsheets currently open" as critical buttons {"Continue"}
