@@ -2,6 +2,8 @@
 
 Create & export documents with Alfred
 
+[⤓ Install from the Alfred Gallery](https://alfred.app/workflows/firefingers21/document-helper/)
+
 ## Usage
 
 Open applications directly to a new file via the `new` keyword.
