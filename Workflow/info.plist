@@ -317,13 +317,7 @@ esac
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
-				<string>on run argv
-	set appName to argv as string
-	tell application id appName
-		make new document
-		activate
-	end tell
-end run</string>
+				<string>on run argv	set appName to argv as string	tell application id appName		make new document		activate	end tellend run</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -720,7 +714,7 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2025.10</string>
+	<string>2025.11</string>
 	<key>webaddress</key>
 	<string>https://github.com/FireFingers21/alfred-document-helper</string>
 </dict>
