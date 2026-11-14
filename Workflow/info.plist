@@ -682,6 +682,36 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<string>auto</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Auto</string>
+						<string>auto</string>
+					</array>
+					<array>
+						<string>Light</string>
+						<string>light</string>
+					</array>
+					<array>
+						<string>Dark</string>
+						<string>dark</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Change the appearance of application icons.</string>
+			<key>label</key>
+			<string>Appearance</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>appearance</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
 				<string>export</string>
 				<key>placeholder</key>
 				<string>export</string>

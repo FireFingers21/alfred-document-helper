@@ -46,7 +46,7 @@ cat << EOB
 	{
 		"title": "${msApp[1]:+Export to ${msApp[1]}}",
 		"variables": { "action":"${action}", "exportType1":"${msApp[1]}", "exportType2":"${msApp[2]}" },
-		"icon": { "path":"images/${msApp[1]}.png" }
+		"icon": { "path":"images/light/${msApp[1]}.png" }
 	},
 	{
 		"title": "${odApp[1]:+Export to ${odApp[1]}}",

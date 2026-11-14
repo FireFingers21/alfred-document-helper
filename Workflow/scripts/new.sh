@@ -10,6 +10,7 @@ scripteditor=("/System/Applications/Utilities/Script Editor.app"(N))
 textedit=("/System/Applications/TextEdit.app"(N))
 libreoffice=("/Applications/LibreOffice.app"(N))
 
+[[ "${appearance}" == "dark" || "${appearance}" == "auto" && $(defaults read -g AppleInterfaceStyle) == "Dark" ]] && mode="dark" || mode="light"
 cat << EOB
 {"items": [
 	{
@@ -17,63 +18,63 @@ cat << EOB
 		"uid": "com.apple.Pages",
 		"arg": "com.apple.Pages",
 		"match": "iWork Apple Creator Studio Pages Document",
-		"icon": { "path": "images/Pages.png" }
+		"icon": { "path": "images/${mode}/Pages.png" }
 	},
 	{
 		"title": "${numbers:+New Numbers Spreadsheet}",
 		"uid": "com.apple.Numbers",
 		"arg": "com.apple.Numbers",
 		"match": "iWork Apple Creator Studio Numbers Spreadsheet",
-        "icon": { "path": "images/Numbers.png" }
+        "icon": { "path": "images/${mode}/Numbers.png" }
 	},
 	{
 		"title": "${keynote:+New Keynote Presentation}",
 		"uid": "com.apple.Keynote",
 		"arg": "com.apple.Keynote",
 		"match": "iWork Apple Creator Studio Keynote Presentation",
-        "icon": { "path": "images/Keynote.png" }
+        "icon": { "path": "images/${mode}/Keynote.png" }
 	},
 	{
 		"title": "${word:+New Word Document}",
 		"uid": "com.microsoft.Word",
 		"arg": "com.microsoft.Word",
 		"match": "Microsoft Office 365 Word Document",
-        "icon": { "path": "images/Word.png" }
+        "icon": { "path": "images/${mode}/Word.png" }
 	},
 	{
 		"title": "${excel:+New Excel Spreadsheet}",
 		"uid": "com.microsoft.Excel",
 		"arg": "com.microsoft.Excel",
 		"match": "Microsoft Office 365 Excel Spreadsheet",
-		"icon": { "path": "images/Excel.png" }
+		"icon": { "path": "images/${mode}/Excel.png" }
 	},
 	{
 		"title": "${powerpoint:+New PowerPoint Presentation}",
 		"uid": "com.microsoft.Powerpoint",
 		"arg": "com.microsoft.Powerpoint",
 		"match": "Microsoft Office 365 PowerPoint Presentation",
-		"icon": { "path": "images/PowerPoint.png" }
+		"icon": { "path": "images/${mode}/PowerPoint.png" }
 	},
 	{
 		"title": "${scripteditor:+New Script Editor Document}",
 		"uid": "com.apple.ScriptEditor2",
 		"arg": "com.apple.ScriptEditor2",
 		"match": "AppleScript Script Editor Document",
-        "icon": { "path": "images/ScriptEditor.png" }
+        "icon": { "path": "images/${mode}/ScriptEditor.png" }
 	},
 	{
 		"title": "${textedit:+New TextEdit Document}",
 		"uid": "com.apple.TextEdit",
 		"arg": "com.apple.TextEdit",
 		"match": "TextEdit Document",
-        "icon": { "path": "images/TextEdit.png" }
+        "icon": { "path": "images/${mode}/TextEdit.png" }
 	},
 	{
 		"title": "New Google Docs",
 		"uid": "docs",
 		"arg": "docs",
 		"match": "Google Docs Document",
-		"icon": { "path": "images/Docs.png" },
+		"icon": { "path": "images/${mode}/Docs.png" },
 		"variables": { "type": "web" }
 	},
 	{
@@ -81,7 +82,7 @@ cat << EOB
 		"uid": "sheets",
 		"arg": "sheets",
 		"match": "Google Sheets Spreadsheet",
-		"icon": { "path": "images/Sheets.png" },
+		"icon": { "path": "images/${mode}/Sheets.png" },
 		"variables": { "type": "web" }
 	},
 	{
@@ -89,7 +90,7 @@ cat << EOB
 		"uid": "slides",
 		"arg": "slides",
 		"match": "Google Slides Presentation",
-		"icon": { "path": "images/Slides.png" },
+		"icon": { "path": "images/${mode}/Slides.png" },
 		"variables": { "type": "web" }
 	},
 	{
@@ -97,7 +98,7 @@ cat << EOB
 		"uid": "writer",
 		"arg": "writer",
 		"match": "LibreOffice Writer Document",
-        "icon": { "path": "images/Writer.png" },
+        "icon": { "path": "images/${mode}/Writer.png" },
         "variables": { "type": "LibreOffice" }
 	},
 	{
@@ -105,7 +106,7 @@ cat << EOB
 		"uid": "calc",
 		"arg": "calc",
 		"match": "LibreOffice Calc Spreadsheet",
-        "icon": { "path": "images/Calc.png" },
+        "icon": { "path": "images/${mode}/Calc.png" },
         "variables": { "type": "LibreOffice" }
 	},
 	{
@@ -113,7 +114,7 @@ cat << EOB
 		"uid": "impress",
 		"arg": "impress",
 		"match": "LibreOffice Impress Presentation",
-        "icon": { "path": "images/Impress.png" },
+        "icon": { "path": "images/${mode}/Impress.png" },
         "variables": { "type": "LibreOffice" }
 	},
 	{
@@ -121,7 +122,7 @@ cat << EOB
 		"uid": "draw",
 		"arg": "draw",
 		"match": "LibreOffice Draw Drawing",
-        "icon": { "path": "images/Draw.png" },
+        "icon": { "path": "images/${mode}/Draw.png" },
         "variables": { "type": "LibreOffice" }
 	},
 	{
@@ -129,7 +130,7 @@ cat << EOB
 		"uid": "math",
 		"arg": "math",
 		"match": "LibreOffice Math Formula",
-        "icon": { "path": "images/Math.png" },
+        "icon": { "path": "images/${mode}/Math.png" },
         "variables": { "type": "LibreOffice" }
 	},
 	{
@@ -137,7 +138,7 @@ cat << EOB
 		"uid": "base",
 		"arg": "base",
 		"match": "LibreOffice Base Database",
-        "icon": { "path": "images/Base.png" },
+        "icon": { "path": "images/${mode}/Base.png" },
         "variables": { "type": "LibreOffice" }
 	}
 ]}
