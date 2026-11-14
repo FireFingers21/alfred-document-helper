@@ -1,18 +1,18 @@
 #!/bin/zsh --no-rcs
 
 case $(lsappinfo info -only bundleID `lsappinfo front | sed 's/-/-0x/'`) in
-    *com.apple.iWork.Pages*)
+    *com.apple.Pages*)
         action="exportPages"
         msApp=("Word" "Document")
         textType1=("Plain Text" "public.plain-text")
         textType2=("Rich Text" "public.rtf")
         ;;
-    *com.apple.iWork.Numbers*)
+    *com.apple.Numbers*)
         action="exportNumbers"
         msApp=("Excel" "Spreadsheet")
         textType1=("CSV" "public.comma-separated-values-text")
         ;;
-    *com.apple.iWork.Keynote*)
+    *com.apple.Keynote*)
         action="exportKeynote"
         msApp=("PowerPoint" "Presentation")
         msFile="Presentation"

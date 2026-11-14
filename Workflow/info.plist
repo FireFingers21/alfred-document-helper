@@ -317,7 +317,13 @@ esac
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
-				<string>on run argv	set appName to argv as string	tell application id appName		make new document		activate	end tellend run</string>
+				<string>on run argv
+	set appName to argv as string
+	tell application id appName
+		make new document
+		activate
+	end tell
+end run</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -427,12 +433,12 @@ esac
 				<integer>2</integer>
 				<key>relatedApps</key>
 				<array>
-					<string>com.apple.iWork.Keynote</string>
 					<string>com.microsoft.Word</string>
+					<string>com.apple.Keynote</string>
 					<string>com.microsoft.Excel</string>
 					<string>com.microsoft.Powerpoint</string>
-					<string>com.apple.iWork.Numbers</string>
-					<string>com.apple.iWork.Pages</string>
+					<string>com.apple.Pages</string>
+					<string>com.apple.Numbers</string>
 				</array>
 				<key>relatedAppsMode</key>
 				<integer>1</integer>

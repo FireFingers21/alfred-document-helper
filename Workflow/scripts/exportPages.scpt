@@ -1,7 +1,7 @@
 #!/usr/bin/osascript
 
 on exportFile()
-	tell application id "com.apple.iWork.Pages"
+	tell application id "com.apple.Pages"
 		set fileName to name of front document as text
 		set filePath to POSIX path of (get file of front document)
 		tell application "System Events" to set parentFolder to path of (container of disk item filePath)
@@ -31,13 +31,13 @@ try
 on error errStr number errNum
 	set alertTitle to "Unable to Export to " & (system attribute "exportType1")
 	if errNum is -1728 then
-		tell application id "com.apple.iWork.Pages" to display alert alertTitle message "File must first be saved" as critical buttons {"Save As...", "Cancel"} default button "Save As..." cancel button "Cancel"
+		tell application id "com.apple.Pages" to display alert alertTitle message "File must first be saved" as critical buttons {"Save As...", "Cancel"} default button "Save As..." cancel button "Cancel"
 		try
-			tell application id "com.apple.iWork.Pages" to save front document
+			tell application id "com.apple.Pages" to save front document
 			exportFile()
 		end try
 	else if errNum is -1719 then
-		tell application id "com.apple.iWork.Pages" to display alert alertTitle message "No documents currently open" as critical buttons {"Continue"}
+		tell application id "com.apple.Pages" to display alert alertTitle message "No documents currently open" as critical buttons {"Continue"}
 		return
 	else
 		return

@@ -16,21 +16,21 @@ cat << EOB
 		"title": "${pages:+New Pages Document}",
 		"uid": "com.apple.Pages",
 		"arg": "com.apple.Pages",
-		"match": "iWork Pages Document",
+		"match": "iWork Apple Creator Studio Pages Document",
 		"icon": { "path": "images/Pages.png" }
 	},
 	{
 		"title": "${numbers:+New Numbers Spreadsheet}",
 		"uid": "com.apple.Numbers",
 		"arg": "com.apple.Numbers",
-		"match": "iWork Numbers Spreadsheet",
+		"match": "iWork Apple Creator Studio Numbers Spreadsheet",
         "icon": { "path": "images/Numbers.png" }
 	},
 	{
 		"title": "${keynote:+New Keynote Presentation}",
 		"uid": "com.apple.Keynote",
 		"arg": "com.apple.Keynote",
-		"match": "iWork Keynote Presentation",
+		"match": "iWork Apple Creator Studio Keynote Presentation",
         "icon": { "path": "images/Keynote.png" }
 	},
 	{
